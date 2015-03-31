@@ -1,6 +1,6 @@
 <? include('head.php'); ?>
 
-<section class="aprilFools">
+<section class="aprilFools wrapper">
 	<h1>April Fool's!</h1>
 	
 	<div class="caption">
@@ -35,4 +35,4 @@
 	</div>
 </section>
 
-<? include('footer.php'); ?>
+<? include('footer.php');?>

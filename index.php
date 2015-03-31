@@ -29,80 +29,177 @@
 				'username' => 'ClawDays',
 				'photo' => 'hotDogStand.JPG',
 				'caption' => 'Larry\'s dogs always has the best meat.',
-				'likes' => 33,
+				'likes' => 3,
+				'likers' => array(
+					'mashmellow',
+					'smellyman',
+					'gorriiza',
+				),
 				'comments' => array(
 					array(
-						'author' => 'Commenter',
-						'comment' => 'testing testing testing'
+						'author' => 'mashmellow',
+						'comment' => 'I would put that whole thing in my mouth'
 					),
 					array(
 						'author' => 'CornRowHiggins',
-						'comment' => 'something incredible'
+						'comment' => 'Who\'s in for some hot doggy style?' 
 					)
 				)
 			),
 			array(
 				'username' => '2freeYellow',
 				'photo' => 'belfie.JPG',
-				'caption' => 'Photo comments goes here.',
-				'likes' => 0, 
-				'comments' => array()
+				'caption' => 'I put my but in the microwave now it looks weird. #bigbutts #room #waterbottle #big #butt #roomwithlight on #biggerbutt #idaho #youdaho #weshouldgetafish #letsallgoonacruise #picture #phone #noodles #hairdoo',
+				'likes' => 99,
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array(
+					array(
+						'author' => 'buttwhat' ,
+						'comment' => 'dat booty is putting of gamma rays!'
+					),
+					array(
+						'author' => 'joowi',
+						'comment' => 'I\'m soft.'
+					)
+				)
 			),
 			array(
 				'username' => 'LexTargetGive',
 				'photo' => 'bum-shorts.jpg',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => 'Solid purchase.',
+				'likes' => 0,
+				'likers' => array(
+					'',
+					''
+				),
 				'comments' => array()
 			),
 			array(
 				'username' => 'Briendon',
 				'photo' => 'bananaInflatable.JPG',
-				'caption' => '',
-				'likes' => 0, 
-				'comments' => array()
+				'caption' => 'I knew it would fit. #lubedup',
+				'likes' => 3 , 
+				'likers' => array(
+					'jamama', 
+					'imadick', 
+					'yourdick' , 
+					'wealldicks', 
+					'yousmelllikedick'
+				),
+				'comments' => array(
+					array(
+						'author' => 'youweirdfriend',
+						'comment' => 'Where were you last night? I could of helped you jam that thing in there. #friendjam'
+					)
+				)
 			),
 			array(
 				'username' => 'Heraldensp',
 				'photo' => 'nipples.JPG',
-				'caption' => '',
-				'likes' => 0, 
-				'comments' => array()
+				'caption' => 'My first 5K! #letsdoitagain #i #knew #i #could #do #it#nipples',
+				'likes' => 12, 
+				'likers' => array(
+					'ilovenipples', 
+					'nycrunners', 
+					'iruntitby'
+				),
+				'comments' => array(
+					array(
+						'author' => 'boomsquad111',
+						'comment' => 'I ran that same race and bleed out my vagina'
+					)
+				)
 			),
 			array(
 				'username' => 'Nearlyzeno',
 				'photo' => 'ginger.JPG',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => 'I like Ginger farts. #carrotfarts',
+				'likes' => 13, 
+				'likers' => array(
+					'',
+					''
+				),
 				'comments' => array()
 			),
 			array(
 				'username' => 'Fortuness',
 				'photo' => 'dressButt.JPG',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => 'I LOVE MY OWN ASS',
+				'likes' => 52, 
+				'likers' => array(
+					'',
+					''
+				),
 				'comments' => array()
 			),
 			array(
 				'username' => 'MoPopAmerica',
 				'photo' => 'dogMakeOut.JPG',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => '#Ifuckyourdog',
+				'likes' => 3, 
+				'likers' => array(
+					'Ifuckmyowndog', 
+					'ifuckyourdog', 
+					'whosdogdidijustfuck'
+				),
 				'comments' => array()
 			),
 			array(
 				'username' => 'MrZenaRappa',
 				'photo' => 'pipe.JPG',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => 'Just bought this awesome new pipe! #awesome #new #pipe #awesomenewpipe',
+				'likes' => 16, 
+				'likers' => array(
+					'',
+					''
+				),
 				'comments' => array()
 			),
 			array(
 				'username' => 'GurlZapRae',
 				'photo' => 'puke.JPG',
-				'caption' => '',
-				'likes' => 0, 
+				'caption' => 'I puked my friend.. weird shit happened next.',
+				'likes' => 22, 
+				'likers' => array(
+					'',
+					''
+				),
 				'comments' => array()
+			),
+			array(
+				'username' => 'dildo12',
+				'photo' => 'dildo1.jpg',
+				'caption' => 'now for sale! real plastic dicks! Check the link in my bio.',
+				'likes' => 3, 
+				'likers' => array(
+					'jerrydildo',
+					'smeeeruuf363',
+					'cakedup'
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'smellslikepoop',
+				'photo' => 'dildo2.JPG',
+				'caption' => 'just working on my dildo shrine #johnnydepp',
+				'likes' => 29, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array(
+					array(
+						'author' => 'tooogle22',
+						'comment' => 'damn that dildo shrine is strait FIRE!'
+					),
+					array(
+						'author' => 'alaskababe44',
+						'comment' => 'I\'m hard.'
+					)
+				)
 			)
 		);
 		
@@ -122,7 +219,9 @@
 							<a href="#" class="like"> <!-- like button -->
 							<a href="#" class="more"> <!-- more button -->
 							<div class="likeList">
-								<a href="#">TannDobbins</a>, <a href="#">TimPhry</a>, <a href="#">2freeYellow</a>...
+								<? foreach($posts[$i]['likers'] as $key => $value): ?>
+									<a href="#"><? echo $value;?></a>,
+								<? endforeach; ?>
 							</div>
 						</div> <!-- /likesBar -->
 						<div class="commentArea">
@@ -152,15 +251,5 @@
 		
 	</div> <!-- /timelineContainer -->
 </div> <!-- /wrapper -->
-
-<footer>
-	<ul>
-		<li><a href="#top" class=""><img src="img/footer-home.png" alt="home"></a></li>
-		<li><a href="aprilFools.php" class="fancybox" data-fancybox-type="iframe"><img src="img/footer-nav.png" alt="nav"></a></li>
-		<li><a href="#" class="fancybox"><img src="img/footer-photo.png" alt="photo"></a></li>
-		<li><a href="#" class="fancybox"><img src="img/footer-likes.png" alt="likes"></a></li>
-		<li><a href="#" class="fancybox"><img src="img/footer-me.png" alt="me"></a></li>
-	</ul>
-</footer>
 
 <? include('footer.php'); ?>
