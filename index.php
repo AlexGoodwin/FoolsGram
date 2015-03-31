@@ -31,19 +31,19 @@
 				'likes' => 33,
 				'comments' => array(
 					array(
-						'author' => 'name1',
+						'author' => 'Commenter',
 						'comment' => 'testing testing testing'
 					),
 					array(
-						'author' => 'name2',
-						'comment' => 'test test test'
+						'author' => 'CornRowHiggins',
+						'comment' => 'something incredible'
 					)
 				)
 			),
 			array(
 				'username' => '2freeYellow',
 				'photo' => 'belfie.JPG',
-				'caption' => '',
+				'caption' => 'Photo comments goes here.',
 				'likes' => 0, 
 				'comments' => array()
 			),
@@ -126,9 +126,9 @@
 						</div> <!-- /likesBar -->
 						<div class="commentArea">
 							<div class="caption">
-								<a class="username" href="#" >2freeYellow</a>
+								<a class="username" href="#" ><? echo($posts[$i]['username']); ?></a>
 								<span class="captionText" >
-									Photo comments goes here.
+									<? echo $posts[$i]['caption'];?>
 								</span>
 							</div>
 							<div class="comments">
