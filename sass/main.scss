@@ -153,9 +153,11 @@ header{
 			padding: 12px 4px 0;
 			height: 44px;
 			width: 100%;
+			line-height: 32px;
 			
 			.profilePic{
 				float: left;
+				margin-left: 2px;
 				
 				img{
 					width: 32px;
@@ -165,7 +167,7 @@ header{
 			
 			.username{
 				float: left;
-				padding-left: 4px;
+				padding-left: 8px;
 				text-shadow: 0 1px 0 rgba(255,255,255,.8);
 			}
 			
@@ -175,7 +177,6 @@ header{
 				color: #999;
 				font-weight: 700;
 				text-shadow: 0 1px 0 rgba(255,255,255,.8);
-				line-height: 16px;
 			}
 		}
 		

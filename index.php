@@ -121,12 +121,12 @@
 							<a href="#" class="like"> <!-- like button -->
 							<a href="#" class="more"> <!-- more button -->
 							<div class="likeList">
-								<a href="#">TannDobbins</a>, <a href="#">TimPhry</a>, <a href="#">WuddupDok</a>...
+								<a href="#">TannDobbins</a>, <a href="#">TimPhry</a>, <a href="#">2freeYellow</a>...
 							</div>
 						</div> <!-- /likesBar -->
 						<div class="commentArea">
 							<div class="caption">
-								<a class="username" href="#" >WuddupDok</a>
+								<a class="username" href="#" >2freeYellow</a>
 								<span class="captionText" >
 									Photo comments goes here.
 								</span>
