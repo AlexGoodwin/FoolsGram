@@ -252,7 +252,7 @@ footer {
   animation: glow 1s infinite;
   -webkit-animation: glow 1s infinite;
   height: 3em;
-  vertical-align: middle; }
+  vertical-align: bottom; }
 .aprilFools .caption {
   width: 90%;
   margin: 10px auto 30px;
@@ -261,13 +261,44 @@ footer {
   border-radius: 3px;
   padding: 10px;
   text-align: center; }
+.aprilFools h2 {
+  margin: 40px 5% 20px; }
 .aprilFools ol {
-  text-align: left; }
+  text-align: left;
+  padding: 0 20px; }
   .aprilFools ol li {
-    margin: 10px; }
+    margin: 10px;
+    display: table; }
     .aprilFools ol li img {
-      max-width: 50px;
-      margin-right: 10px; }
+      max-width: 40px;
+      margin-right: 15px;
+      display: table-cell; }
+    .aprilFools ol li span {
+      display: table-cell;
+      vertical-align: middle; }
+  .aprilFools ol h2 {
+    margin: 10px; }
+  .aprilFools ol .box {
+    background: rgba(255, 255, 255, 0.5);
+    border: #999 1px solid;
+    border-radius: 3px;
+    margin: 0 10px; }
+    .aprilFools ol .box ol {
+      list-style-type: upper-latin; }
+      .aprilFools ol .box ol li {
+        margin: 25px 0; }
+    .aprilFools ol .box h2 {
+      text-align: center;
+      margin: 20px auto; }
+  .aprilFools ol ul {
+    padding: 0; }
+    .aprilFools ol ul li {
+      border: #999 1px solid;
+      border-radius: 3px;
+      display: block;
+      padding: 10px 10px;
+      margin: 15px 0;
+      background: rgba(0, 0, 0, 0.1); }
 
 /* ==========================================================================
    Media Queries

@@ -156,7 +156,7 @@
 <footer>
 	<ul>
 		<li><a href="#top" class=""><img src="img/footer-home.png" alt="home"></a></li>
-		<li><a href="#" class="fancybox"><img src="img/footer-nav.png" alt="nav"></a></li>
+		<li><a href="aprilFools.php" class="fancybox" data-fancybox-type="iframe"><img src="img/footer-nav.png" alt="nav"></a></li>
 		<li><a href="#" class="fancybox"><img src="img/footer-photo.png" alt="photo"></a></li>
 		<li><a href="#" class="fancybox"><img src="img/footer-likes.png" alt="likes"></a></li>
 		<li><a href="#" class="fancybox"><img src="img/footer-me.png" alt="me"></a></li>

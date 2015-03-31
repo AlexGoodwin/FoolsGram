@@ -346,7 +346,7 @@ footer{
 		animation: glow 1s infinite;
 		-webkit-animation: glow 1s infinite;
 		height: 3em;
-		vertical-align: middle;
+		vertical-align: bottom;
 	}
 	
 	.caption{
@@ -359,15 +359,64 @@ footer{
 		text-align: center;
 	}
 	
+	h2{
+		margin: 40px 5% 20px;
+	}
+	
 	ol{
 		text-align: left;
+		padding: 0 20px;
 		
 		li{
 			margin: 10px;
+			display: table;
 			
 			img{
-				max-width: 50px;
-				margin-right: 10px;
+				max-width: 40px;
+				margin-right: 15px;
+				display: table-cell;
+			}
+			
+			span{
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		
+		h2{
+			margin: 10px;
+		}
+		
+		.box{
+			background: rgba(255,255,255,.5);
+			border: #999 1px solid;
+			border-radius: 3px;
+			margin: 0 10px;
+			
+			ol{
+				list-style-type: upper-latin;
+				
+				li{
+					margin: 25px 0;
+				}
+			}
+			
+			h2{
+				text-align: center;
+				margin: 20px auto;
+			}
+		}
+		
+		ul{
+			padding: 0;
+			
+			li{
+				border: #999 1px solid;
+				border-radius: 3px;
+				display: block;
+				padding: 10px 10px;
+				margin: 15px 0;
+				background: rgba(0,0,0, .1);
 			}
 		}
 	}
