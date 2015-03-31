@@ -1,4 +1,5 @@
 <? include('head.php'); ?>
+<a name="top"></a>
 <div class="wrapper">
 	<header>
 		<a href="#" class="home">
@@ -150,13 +151,16 @@
 		<? endfor; ?>
 		
 	</div> <!-- /timelineContainer -->
+</div> <!-- /wrapper -->
 
-
-
-
-	<footer>
-		<img src="img/footer.png">
-	</foote>
-</div>
+<footer>
+	<ul>
+		<li><a href="#top" class=""><img src="img/footer-home.png" alt="home"></a></li>
+		<li><a href="#" class="fancybox"><img src="img/footer-nav.png" alt="nav"></a></li>
+		<li><a href="#" class="fancybox"><img src="img/footer-photo.png" alt="photo"></a></li>
+		<li><a href="#" class="fancybox"><img src="img/footer-likes.png" alt="likes"></a></li>
+		<li><a href="#" class="fancybox"><img src="img/footer-me.png" alt="me"></a></li>
+	</ul>
+</footer>
 
 <? include('footer.php'); ?>

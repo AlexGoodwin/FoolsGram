@@ -11,6 +11,13 @@
 	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 	    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
 		<link rel="apple-touch-icon" href="Instagram_Icon 140x140.png">
+		
+		<link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/bluebar/727396f/images/ico/favicon.ico">
+    
+        <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
 		<!-- Customize home screen title. -->
         <meta name="apple-mobile-web-app-title" content="Instagram">

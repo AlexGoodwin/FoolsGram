@@ -66,10 +66,11 @@ a {
   width: 100%;
   max-width: 414px;
   min-width: 320px;
-  float: none; }
+  float: none;
+  padding-bottom: 70px; }
 
 header {
-  background: #2e5e86;
+  background: #3f729b;
   height: 44px;
   width: 100%;
   text-align: center;
@@ -155,7 +156,8 @@ header {
       border-bottom: 1px solid #ddd;
       margin: 1px 0 -1px;
       background: #e6e6e6 url("../img/white-gradient-100px.png") repeat-x 50% 50%;
-      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0 3px rgba(0, 0, 0, 0.1); }
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0 3px rgba(0, 0, 0, 0.1);
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
       .timelineContainer .timelineItem .timelineCenter .card .likesBar .like {
         background-image: url("../img/feed-assets@2x.png");
         position: relative;
@@ -222,11 +224,50 @@ header {
 footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  max-width: 414px;
-  min-width: 320px; }
-  footer img {
-    width: 100%; }
+  margin: 0 auto;
+  width: 100%; }
+  footer ul {
+    padding: 0;
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 414px;
+    min-width: 320px; }
+    footer ul li {
+      display: inline-block;
+      width: 20%;
+      margin: 0;
+      padding: 0; }
+      footer ul li a img {
+        width: 100%; }
+
+@-webkit-keyframes glow {
+  0% {
+    font-size: 2em; }
+  50% {
+    font-size: 2.1em; }
+  100% {
+    font-size: 2em; } }
+.aprilFools h1 {
+  text-align: center;
+  animation: glow 1s infinite;
+  -webkit-animation: glow 1s infinite;
+  height: 3em;
+  vertical-align: middle; }
+.aprilFools .caption {
+  width: 90%;
+  margin: 10px auto 30px;
+  background: rgba(255, 255, 255, 0.5);
+  border: #999 1px solid;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center; }
+.aprilFools ol {
+  text-align: left; }
+  .aprilFools ol li {
+    margin: 10px; }
+    .aprilFools ol li img {
+      max-width: 50px;
+      margin-right: 10px; }
 
 /* ==========================================================================
    Media Queries

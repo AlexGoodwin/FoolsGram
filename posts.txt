@@ -1,0 +1,122 @@
+$posts = array(
+			array(
+				'username' => 'ClawDays',
+				'photo' => 'hotDogStand.JPG',
+				'caption' => 'Larry\'s dogs always has the best meat.',
+				'likes' => 33,
+				'likers' => array(
+					'WuddupDok',
+					'coltonGC',
+					'anotherUsername'
+				),
+				'comments' => array(
+					array(
+						'author' => 'Commenter',
+						'comment' => 'testing testing testing'
+					),
+					array(
+						'author' => 'CornRowHiggins',
+						'comment' => 'something incredible'
+					)
+				)
+			),
+			array(
+				'username' => '2freeYellow',
+				'photo' => 'belfie.JPG',
+				'caption' => 'Photo comments goes here.',
+				'likes' => 0,
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'LexTargetGive',
+				'photo' => 'bum-shorts.jpg',
+				'caption' => '',
+				'likes' => 0,
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'Briendon',
+				'photo' => 'bananaInflatable.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'Heraldensp',
+				'photo' => 'nipples.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'Nearlyzeno',
+				'photo' => 'ginger.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'Fortuness',
+				'photo' => 'dressButt.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'MoPopAmerica',
+				'photo' => 'dogMakeOut.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'MrZenaRappa',
+				'photo' => 'pipe.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			),
+			array(
+				'username' => 'GurlZapRae',
+				'photo' => 'puke.JPG',
+				'caption' => '',
+				'likes' => 0, 
+				'likers' => array(
+					'',
+					''
+				),
+				'comments' => array()
+			)
+		);
