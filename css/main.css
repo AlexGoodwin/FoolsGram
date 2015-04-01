@@ -43,7 +43,8 @@ html, body {
   color: #444;
   box-sizing: border-box;
   max-width: 100%;
-  background: white; }
+  background: white;
+  -webkit-overflow-scrolling: touch; }
 
 * {
   box-sizing: inherit; }
