@@ -15,6 +15,7 @@
 		<ol>
 			<li>First, get access to your friend's iphone. This isn't always easy, but here's some ideas...
 				<ul>
+					<li>Your phone's dead.</li>
 					<li>Just ask to 'see it for a sec'</li>
 					<li>Ask if they've seen the newest WWE smak-cam. They haven't!?!? Good thing you can find it for them!</li>
 					<li>Your instagram's acting weird. Is theirs the same way?</li>

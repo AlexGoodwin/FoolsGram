@@ -123,79 +123,76 @@ header {
 .timelineContainer .timelineItem .timelineCenter {
   padding: 8px 4px; }
   .timelineContainer .timelineItem .timelineCenter .card {
-    background: #fafafa;
-    border: 1px solid silver;
-    border-radius: 3px;
-    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+    background: white;
     text-align: left; }
     .timelineContainer .timelineItem .timelineCenter .card > img {
       width: 100%; }
-    .timelineContainer .timelineItem .timelineCenter .card .likesBar {
-      position: relative;
-      height: 40px;
-      border-bottom: 1px solid #ddd;
-      margin: 1px 0 -1px;
-      background: #e6e6e6 url("../img/white-gradient-100px.png") repeat-x 50% 50%;
-      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0 3px rgba(0, 0, 0, 0.1);
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-      text-overflow: ellipsis; }
-      .timelineContainer .timelineItem .timelineCenter .card .likesBar .like {
-        background-image: url("../img/feed-assets@2x.png");
-        position: relative;
-        float: left;
-        display: inline;
-        height: 100%;
-        width: 48px;
-        background: url("../img/feed-assets.png") no-repeat 8px 6px;
-        border-right: 1px solid #ddd;
-        box-shadow: 1px 0 0 rgba(255, 255, 255, 0.9);
-        background-size: 100px 1000px; }
-      .timelineContainer .timelineItem .timelineCenter .card .likesBar .more {
-        background-image: url("../img/feed-assets@2x.png");
-        background-size: 100px 1000px;
-        background: url("../img/feed-assets.png") no-repeat 7px -94px;
-        border-left: 1px solid #ddd;
-        box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.9);
-        float: right;
-        display: block;
-        cursor: pointer;
-        height: 100%;
-        width: 48px; }
-      .timelineContainer .timelineItem .timelineCenter .card .likesBar .likeList {
-        line-height: 16px;
-        margin: 0 52px 0 48px;
-        padding: 12px 0 12px 12px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
-    .timelineContainer .timelineItem .timelineCenter .card .commentArea .caption {
-      border-bottom: 1px solid #e6e6e6;
-      padding: 10px 8px 10px 12px;
-      margin-bottom: 0;
-      word-wrap: break-word;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-      border-bottom: 1px solid #e6e6e6; }
-      .timelineContainer .timelineItem .timelineCenter .card .commentArea .caption .username {
-        margin: 0 .4em 0 0; }
-    .timelineContainer .timelineItem .timelineCenter .card .commentArea .comments {
-      padding: 12px 0 0; }
-      .timelineContainer .timelineItem .timelineCenter .card .commentArea .comments .comment {
-        padding: 4px 8px 0 12px; }
-        .timelineContainer .timelineItem .timelineCenter .card .commentArea .comments .comment .commentAuthor {
-          margin: 0 .4em 0 0; }
-    .timelineContainer .timelineItem .timelineCenter .card .commentArea .composer {
-      padding: 12px;
-      margin-bottom: 0; }
-      .timelineContainer .timelineItem .timelineCenter .card .commentArea .composer input[type=text] {
-        border: 1px solid #ccc;
-        background-color: rgba(255, 255, 255, 0.2);
-        width: 100%;
-        margin: 0;
-        padding: 8px 9px 7px;
-        border-color: #d8d8d8;
+    .timelineContainer .timelineItem .timelineCenter .card .likes {
+      font-size: 0;
+      padding: 4px 10px; }
+      .timelineContainer .timelineItem .timelineCenter .card .likes * {
+        font-size: 14px; }
+      .timelineContainer .timelineItem .timelineCenter .card .likes div:nth-child(1) {
+        width: 15px;
+        display: inline-block;
+        margin-right: 5px; }
+        .timelineContainer .timelineItem .timelineCenter .card .likes div:nth-child(1) img {
+          width: 100%; }
+      .timelineContainer .timelineItem .timelineCenter .card .likes div:nth-child(2) {
+        display: inline-block;
+        width: auto;
+        clear: both; }
+    .timelineContainer .timelineItem .timelineCenter .card .caption {
+      font-size: 0;
+      padding: 4px 10px; }
+      .timelineContainer .timelineItem .timelineCenter .card .caption * {
+        font-size: 14px; }
+      .timelineContainer .timelineItem .timelineCenter .card .caption div:nth-child(1) {
+        width: 15px;
+        display: inline-block;
+        margin-right: 5px; }
+        .timelineContainer .timelineItem .timelineCenter .card .caption div:nth-child(1) img {
+          width: 100%; }
+      .timelineContainer .timelineItem .timelineCenter .card .caption div:nth-child(2) {
+        display: inline-block;
+        width: auto;
+        clear: both; }
+        .timelineContainer .timelineItem .timelineCenter .card .caption div:nth-child(2) p {
+          margin: 0; }
+    .timelineContainer .timelineItem .timelineCenter .card .comment {
+      padding: 4px 10px 4px 30px; }
+    .timelineContainer .timelineItem .timelineCenter .card .options {
+      font-size: 0;
+      margin: 5px 10px; }
+      .timelineContainer .timelineItem .timelineCenter .card .options a {
+        display: inline-block;
+        background: #edeeee;
         border-radius: 2px;
-        -webkit-font-smoothing: antialiased;
-        -webkit-appearance: none; }
+        padding: 5px 10px;
+        color: #a5a7aa;
+        font-weight: 400;
+        text-shadow: none;
+        font-size: 14px;
+        min-width: 70px;
+        margin-right: 4px; }
+        .timelineContainer .timelineItem .timelineCenter .card .options a:last-of-type {
+          margin-right: 0;
+          min-width: 0;
+          padding: 0px 5px; }
+          .timelineContainer .timelineItem .timelineCenter .card .options a:last-of-type img {
+            height: 29px;
+            top: 0; }
+        .timelineContainer .timelineItem .timelineCenter .card .options a:last-of-type:hover {
+          background: #edeeee; }
+        .timelineContainer .timelineItem .timelineCenter .card .options a:hover {
+          text-decoration: none;
+          background: #ddd; }
+        .timelineContainer .timelineItem .timelineCenter .card .options a img {
+          height: 13px;
+          margin-right: 2px;
+          vertical-align: middle;
+          position: relative;
+          top: -1.5px; }
 
 footer {
   position: fixed;

@@ -168,10 +168,7 @@ header{
 			padding: 8px 4px;
 			
 			.card{
-				background: #fafafa;
-				border: 1px solid silver;
-				border-radius: 3px;
-				box-shadow: 0 1px 16px rgba(0,0,0,.1);
+				background: white;
 				text-align: left;
 				
 				& > img{
@@ -179,105 +176,113 @@ header{
 					width: 100%;
 				}
 				
-				.likesBar{
-					position: relative;
-					height: 40px;
-					border-bottom: 1px solid #ddd;
-					margin: 1px 0 -1px;
-					background: #e6e6e6 url("../img/white-gradient-100px.png") repeat-x 50% 50%;
-					box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
-					text-shadow: 0 1px 0 rgba(255,255,255,.8);
-					text-overflow: ellipsis;
+				.likes{
+					font-size: 0;
+					padding: 4px 10px;
 					
-					.like{
-						background-image: url("../img/feed-assets@2x.png");
-						position: relative;
-						float: left;
-						display: inline;
-						height: 100%;
-						width: 48px;
-						background: url("../img/feed-assets.png") no-repeat 8px 6px;
-						border-right: 1px solid #ddd;
-						box-shadow: 1px 0 0 rgba(255,255,255,.9);
-						background-size: 100px 1000px;
+					*{
+						font-size: 14px;
 					}
 					
-					.more{
-						background-image: url("../img/feed-assets@2x.png");
-						background-size: 100px 1000px;
-						background: url("../img/feed-assets.png") no-repeat 7px -94px;
-						border-left: 1px solid #ddd;
-						box-shadow: inset 1px 0 0 rgba(255,255,255,.9);
-						float: right;
-						display: block;
-						cursor: pointer;
-						height: 100%;
-						width: 48px;
+					div:nth-child(1){
+						// heart icon
+						width: 15px;
+						display: inline-block;
+						margin-right: 5px;
+						
+						img{
+							width: 100%;
+						}
 					}
 					
-					.likeList{
-						line-height: 16px;
-						margin: 0 52px 0 48px;
-						padding: 12px 0 12px 12px;
-						overflow: hidden;
-						text-overflow: ellipsis;
-						white-space: nowrap;
+					div:nth-child(2){
+						// number of likes
+						display: inline-block;
+						width: auto;
+						clear: both;
 					}
 				}
 				
-				.commentArea{
+				.caption{
+					font-size: 0;
+					padding: 4px 10px;
 					
-					.caption{
-						border-bottom: 1px solid #e6e6e6;
-						padding: 10px 8px 10px 12px;
-						margin-bottom: 0;
-						word-wrap: break-word;
-						box-shadow: 0 1px 2px rgba(0,0,0,.04);
-						border-bottom: 1px solid #e6e6e6;
-						
-						.username{
-							margin: 0 .4em 0 0;
-						}
-						
-						.captionText{
-							
-						}
+					*{
+						font-size: 14px;
 					}
 					
-					.comments{
-						padding: 12px 0 0;
+					div:nth-child(1){
+						// chat icon
+						width: 15px;
+						display: inline-block;
+						margin-right: 5px;
 						
-						.comment{
-							padding: 4px 8px 0 12px;
-							
-							.commentAuthor{
-								margin: 0 .4em 0 0;
-							}
-							
-							.commentText{
-								
-							}
-						}
-					}
-					
-					.composer{
-						padding: 12px;
-						margin-bottom: 0;
-						
-						input[type=text]{
-							border: 1px solid #ccc;
-							background-color: rgba(255,255,255,.2);
+						img{
 							width: 100%;
+						}
+					}
+					
+					div:nth-child(2){
+						display: inline-block;
+						width: auto;
+						clear: both;
+						
+						p{
 							margin: 0;
-							padding: 8px 9px 7px;
-							border-color: #d8d8d8;
-							border-radius: 2px;
-							-webkit-font-smoothing: antialiased;
-							-webkit-appearance: none;
 						}
 					}
 				}
-			}	
+				
+				.comment{
+					padding: 4px 10px 4px 30px;
+				}
+				
+				.options{
+					font-size: 0;
+					margin: 5px 10px;
+					
+					a{
+						display: inline-block;
+						background: #edeeee;
+						border-radius: 2px;
+						padding: 5px 10px;
+						color: #a5a7aa;
+						font-weight: 400;
+						text-shadow: none;
+						font-size: 14px;
+						min-width: 70px;
+						margin-right: 4px;
+						
+						&:last-of-type{
+							margin-right: 0;
+							min-width: 0;
+							padding: 0px 5px;
+							
+							img{
+								height: 29px;
+								top: 0;
+							}
+						}
+						
+						&:last-of-type:hover{
+							background: #edeeee;
+						}
+						
+						&:hover{
+							text-decoration: none;
+							background: #ddd;
+						}
+						
+						img{
+							height: 13px;
+							margin-right: 2px;
+							vertical-align: middle;
+							position: relative;
+							top: -1.5px;
+						}
+					}
+				}
+			}
 		}
 	}
 }

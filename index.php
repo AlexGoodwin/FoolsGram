@@ -205,46 +205,53 @@
 		
 		for($i=0;$i<count($posts);$i++): ?>
 			<section class="timelineItem">
+				
+				<!-- header -->
 				<div class="timelineSidebar">
 					<div class="profilePic">
 						<img src="img/profiles/<? echo $i+1;?>.jpg">
 					</div>
 					<a href="#" class="username"><? echo($posts[$i]['username']); ?></a>
 					<span class="timestamp"><img src="img/clock.png"><? echo(rand(0,60));?>m</span>
-				</div> <!-- /timelineSidebar -->
+				</div>
+				
+				<!-- photo & comments -->
 				<div class="timelineCenter">
 					<div class="card">
-						<img src="img/<? echo $posts[$i]['photo'];?>"> <!-- photo -->
-						<div class="likesBar">
-							<a href="#" class="like"> <!-- like button -->
-							<a href="#" class="more"> <!-- more button -->
-							<div class="likeList">
-								<? foreach($posts[$i]['likers'] as $key => $value): ?>
-									<a href="#"><? echo $value;?></a>,
-								<? endforeach; ?>
+						<!-- photo -->
+						<!-- NOTE butts have replaced old images -->
+						<img src="<? echo 'img/bigButts/butt'.($i+1).'.jpg';?>">
+						
+						<!-- likes -->
+						<div class="likes">
+							<div><img src="img/heart.png" alt=""></div>
+							<div><a href="#"><? echo $posts[$i]['likes']; ?> likes</a></div>
+						</div>
+						
+						<!-- caption -->
+						<div class="caption">
+							<div><img src="img/chat.png" alt=""></div>
+							<div>
+								<p><a href="#"><? echo($posts[$i]['username']); ?></a> <?// echo $posts[$i]['caption'];?></p>
 							</div>
-						</div> <!-- /likesBar -->
-						<div class="commentArea">
-							<div class="caption">
-								<a class="username" href="#" ><? echo($posts[$i]['username']); ?></a>
-								<span class="captionText" >
-									<? echo $posts[$i]['caption'];?>
-								</span>
+						</div>
+						
+						<!-- comments -->
+						<!-- <? foreach($posts[$i]['comments'] as $key => $value): ?>
+							<div class="comment">
+								<a href="#" class="commentAuthor"><? echo $value['author'];?></a>
+								<span class="commentText"><? echo $value['comment'];?></span>
 							</div>
-							<div class="comments">
-								<? foreach($posts[$i]['comments'] as $key => $value): ?>
-									<div class="comment">
-										<a href="#" class="commentAuthor"><? echo $value['author'];?></a>
-										<span class="commentText"><? echo $value['comment'];?></span>
-									</div>
-								<? endforeach; ?>
-							</div> <!-- /comments -->
-							
-							<form class="composer">
-								<input type="text" placeholder="Write a comment...">
-							</form> <!-- /composer -->
-						</div> <!-- /commentArea -->
-					</div>
+						<? endforeach; ?> -->
+						
+						<!-- options -->
+						<div class="options">
+							<a href="#"><img src="img/heart.png" alt=""> Like</a>
+							<a href="#"><img src="img/chat.png" alt=""> Comment</a>
+							<a href="#" class="pull-right"><img src="img/more.png" alt=""></a>
+						</div>
+						
+					</div> <!-- /card -->
 				</div><!-- /timelineCenter -->
 			</section> <!-- /timelineItem -->
 		<? endfor; ?>
