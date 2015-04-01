@@ -1,15 +1,15 @@
 <? include('head.php'); ?>
 <a name="top"></a>
 <div class="wrapper">
+	
 	<header>
-		<a href="#" class="home">
-			<i></i>
-		</a>
+		<div class="blueTop"></div>
 		<div class="logo">
+			<img src="img/whiteLogo.png">
 		</div>
 		
-		<div class="profile">
-			<img src="img/wuddupdokProf.jpg">
+		<div class="mailbox">
+			<img src="img/mailbox.png">
 		</div>
 	</header>
 	
@@ -207,10 +207,10 @@
 			<section class="timelineItem">
 				<div class="timelineSidebar">
 					<div class="profilePic">
-						<img src="img/wuddupdokProf.jpg">
+						<img src="img/profiles/<? echo $i+1;?>.jpg">
 					</div>
 					<a href="#" class="username"><? echo($posts[$i]['username']); ?></a>
-					<span class="timestamp"><? echo(rand(0,60));?>m</span>
+					<span class="timestamp"><img src="img/clock.png"><? echo(rand(0,60));?>m</span>
 				</div> <!-- /timelineSidebar -->
 				<div class="timelineCenter">
 					<div class="card">

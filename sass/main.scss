@@ -46,6 +46,7 @@ textarea {
    ========================================================================== */
 
 $blue: #3f729b;
+$headerBlue: #125688;
 
 html, body{
 	font-family: "proxima-nova", "Helvetica Neue", arial, sans-serif;
@@ -53,7 +54,7 @@ html, body{
 	color: #444;
 	box-sizing: border-box;
 	max-width: 100%;
-	background: #edeeef url("../img/noise-2.png");
+	background: white;
 }
 
 *{
@@ -80,63 +81,42 @@ a{
 	padding-bottom: 70px;
 }
 
+.blueTop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $headerBlue;
+	height: 24px;
+	z-index: 10;
+}
+
 header{
-	background: $blue;
-	height: 44px;
+	background: $headerBlue;
+	height: 68px;
 	width: 100%;
 	text-align: center;
-	background-image: url("../img/noise-2.png"), -webkit-linear-gradient(top,#517fa4,#306088);
 	top: 0;
 	left: 0;
 	position: relative;
+	padding-top: 24px;
 	
-	.home{
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 44px;
-		height: 44px;
-		border-left: none;
-		background-color: #1c5380;
-		background-color: rgba(6,54,95,.35);
-		box-shadow: -1px 0 0 rgba(255,255,255,.15),inset 0 0 1px rgba(6,54,95,.4),inset 1px 0 1px rgba(6,54,95,.4);
+	.logo{
 		
-		i{
-			background: url("../img/shared-assets.png") no-repeat 6px -194px;
-			display: block;
-			width: 100%;
-			height: 100%;
-			margin: 0;
+		img{
+			height: 29px;
+			margin-top: 10px;
 		}
 	}
 	
-	.logo{
-		height: 35px;
-		width: 97px;
-		background: url("../img/shared-assets.png") no-repeat 0 4px;
-		background-image: url("../img/shared-assets@2x.png");
-		background-size: 150px 600px;
-		position: relative;
-		top: 4px;
-		margin: 0 auto;
-		text-indent: -9999em;
-	}
-	
-	.profile{
+	.mailbox{
 		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 11px 11px 13px 12px;
-		border-right: 1px solid #06365f;
-		border-right-color: rgba(0,0,0,.1);
-		box-shadow: inset 1px 0 0 rgba(255,255,255,.1);
-		text-shadow: 0 1px 0 rgba(3,27,47,.5);
-		border-left: 1px solid #06365f;
-		border-left-color: rgba(0,0,0,.1);
+		right: 12px;
+		top: 36px;
+		z-index: 0;
 		
 		img{
-			width: 24px;
-			height: 24px;
+			height: 18px;
 		}
 	}
 }
@@ -173,6 +153,14 @@ header{
 				color: #999;
 				font-weight: 700;
 				text-shadow: 0 1px 0 rgba(255,255,255,.8);
+				
+				img{
+					height: 10px;
+					vertical-align: middle;
+					margin-right: 4px;
+					position: relative;
+					top: -1.5px;
+				}
 			}
 		}
 		
