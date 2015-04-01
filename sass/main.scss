@@ -454,6 +454,7 @@ footer{
 			img{
 				height: 32px;
 				width: auto;
+				max-width: 10%;
 				
 				&.prof{
 					border-radius: 16px;
@@ -468,6 +469,11 @@ footer{
 			span{
 				line-height: 32px;
 				padding: 0 8px;
+				max-width: 80%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: inline-block;
+				white-space: nowrap;
 				
 				i{
 					font-style: normal;

@@ -321,7 +321,8 @@ footer {
     border-bottom: #ccc 1px solid; }
     .notifications ul.notifs li img {
       height: 32px;
-      width: auto; }
+      width: auto;
+      max-width: 10%; }
       .notifications ul.notifs li img.prof {
         border-radius: 16px;
         float: left; }
@@ -329,7 +330,12 @@ footer {
         float: right; }
     .notifications ul.notifs li span {
       line-height: 32px;
-      padding: 0 8px; }
+      padding: 0 8px;
+      max-width: 80%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      white-space: nowrap; }
       .notifications ul.notifs li span i {
         font-style: normal;
         color: #999;
